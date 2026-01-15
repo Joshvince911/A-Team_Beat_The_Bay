@@ -28,6 +28,8 @@ motor_3b = Motor(vex.Ports.PORT6)
 # Initalize motor groups
 motor_group_1 = MotorGroup(motor_1a, motor_2a, motor_3a)
 motor_group_2 = MotorGroup(motor_1b, motor_2b, motor_3b)
+
+#Initialize controller
 controller_1 = vex.Controller()
 
 brain.screen.print("Hello Vex World!")
@@ -94,3 +96,4 @@ comp = Competition(user_control, autonomous)
 # actions to do when the program starts
 
 brain.screen.clear_screen()
+
